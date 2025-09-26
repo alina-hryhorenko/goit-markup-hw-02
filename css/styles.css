@@ -78,7 +78,10 @@ color: #2e2f42;
 }
 
 /* С13: Кнопкам задана властивість cursor зі значенням pointer */
-
+.btn:hover,
+.btn:focus {
+    background: #404bbf;
+}
 .btn {
     cursor: pointer;
     background-color: #4d5ae5;
@@ -88,10 +91,7 @@ color: #2e2f42;
         letter-spacing: 0.04em;
         color: #fff;
 }
- .btn:hover,
- .btn:focus {
-    background: #404bbf;
- }
+ 
 .page-main {
 
 
